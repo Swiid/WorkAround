@@ -13,6 +13,14 @@
 		00CAD5361CBC1EB700D4EF6C /* WorkAround.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00CAD5341CBC1EB700D4EF6C /* WorkAround.xcdatamodeld */; };
 		00CAD5381CBC1EB700D4EF6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CAD5371CBC1EB700D4EF6C /* Assets.xcassets */; };
 		00CAD53B1CBC1EB700D4EF6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CAD5391CBC1EB700D4EF6C /* LaunchScreen.storyboard */; };
+		00CAD54A1CBC206B00D4EF6C /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00CAD5461CBC206B00D4EF6C /* Roboto-Bold.ttf */; };
+		00CAD54B1CBC206B00D4EF6C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00CAD5471CBC206B00D4EF6C /* Roboto-Light.ttf */; };
+		00CAD54C1CBC206B00D4EF6C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00CAD5481CBC206B00D4EF6C /* Roboto-Regular.ttf */; };
+		00CAD54D1CBC206B00D4EF6C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00CAD5491CBC206B00D4EF6C /* Roboto-Thin.ttf */; };
+		00CAD54F1CBC21BB00D4EF6C /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CAD54E1CBC21BB00D4EF6C /* MaterialView.swift */; };
+		00CAD5521CBC21FE00D4EF6C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CAD5511CBC21FE00D4EF6C /* Constants.swift */; };
+		00CAD5541CBC225200D4EF6C /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CAD5531CBC225200D4EF6C /* MaterialButton.swift */; };
+		00CAD5561CBC229F00D4EF6C /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CAD5551CBC229F00D4EF6C /* MaterialTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		00CAD5371CBC1EB700D4EF6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00CAD53A1CBC1EB700D4EF6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00CAD53C1CBC1EB700D4EF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CAD5461CBC206B00D4EF6C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		00CAD5471CBC206B00D4EF6C /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		00CAD5481CBC206B00D4EF6C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		00CAD5491CBC206B00D4EF6C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		00CAD54E1CBC21BB00D4EF6C /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		00CAD5511CBC21FE00D4EF6C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		00CAD5531CBC225200D4EF6C /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		00CAD5551CBC229F00D4EF6C /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,11 @@
 		00CAD52C1CBC1EB600D4EF6C /* WorkAround */ = {
 			isa = PBXGroup;
 			children = (
+				00CAD5501CBC21EF00D4EF6C /* Util */,
+				00CAD5451CBC204F00D4EF6C /* Resources */,
+				00CAD5441CBC204500D4EF6C /* Model */,
+				00CAD5431CBC203F00D4EF6C /* View */,
+				00CAD5421CBC203700D4EF6C /* Controller */,
 				00CAD52D1CBC1EB700D4EF6C /* AppDelegate.swift */,
 				00CAD52F1CBC1EB700D4EF6C /* ViewController.swift */,
 				00CAD5311CBC1EB700D4EF6C /* Main.storyboard */,
@@ -65,6 +86,49 @@
 				00CAD5341CBC1EB700D4EF6C /* WorkAround.xcdatamodeld */,
 			);
 			path = WorkAround;
+			sourceTree = "<group>";
+		};
+		00CAD5421CBC203700D4EF6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		00CAD5431CBC203F00D4EF6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00CAD54E1CBC21BB00D4EF6C /* MaterialView.swift */,
+				00CAD5531CBC225200D4EF6C /* MaterialButton.swift */,
+				00CAD5551CBC229F00D4EF6C /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		00CAD5441CBC204500D4EF6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		00CAD5451CBC204F00D4EF6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00CAD5461CBC206B00D4EF6C /* Roboto-Bold.ttf */,
+				00CAD5471CBC206B00D4EF6C /* Roboto-Light.ttf */,
+				00CAD5481CBC206B00D4EF6C /* Roboto-Regular.ttf */,
+				00CAD5491CBC206B00D4EF6C /* Roboto-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		00CAD5501CBC21EF00D4EF6C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				00CAD5511CBC21FE00D4EF6C /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +190,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CAD54D1CBC206B00D4EF6C /* Roboto-Thin.ttf in Resources */,
+				00CAD54C1CBC206B00D4EF6C /* Roboto-Regular.ttf in Resources */,
 				00CAD53B1CBC1EB700D4EF6C /* LaunchScreen.storyboard in Resources */,
 				00CAD5381CBC1EB700D4EF6C /* Assets.xcassets in Resources */,
+				00CAD54B1CBC206B00D4EF6C /* Roboto-Light.ttf in Resources */,
+				00CAD54A1CBC206B00D4EF6C /* Roboto-Bold.ttf in Resources */,
 				00CAD5331CBC1EB700D4EF6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,9 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CAD5521CBC21FE00D4EF6C /* Constants.swift in Sources */,
 				00CAD5301CBC1EB700D4EF6C /* ViewController.swift in Sources */,
+				00CAD5541CBC225200D4EF6C /* MaterialButton.swift in Sources */,
 				00CAD52E1CBC1EB700D4EF6C /* AppDelegate.swift in Sources */,
 				00CAD5361CBC1EB700D4EF6C /* WorkAround.xcdatamodeld in Sources */,
+				00CAD54F1CBC21BB00D4EF6C /* MaterialView.swift in Sources */,
+				00CAD5561CBC229F00D4EF6C /* MaterialTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
